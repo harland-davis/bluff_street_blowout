@@ -1,0 +1,43 @@
+img {
+  object-fit: scale-down;
+  width: 60%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.header-container {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 60pt;
+  color: hotpink;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+.first-annual {
+  font-size: 20pt;
+  font-size-adjust: none;
+  color:gray;
+  padding-top: 2em;
+}
+
+.bluff-street-blowout {
+  font-size: 20pt;
+  font-style: italic;
+  font-size-adjust: none;
+  color:gray;
+}
+
+.header-paragraph {
+  color:black;
+  font-size: 20pt;
+}
