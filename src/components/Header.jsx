@@ -6,7 +6,20 @@ export default function Header() {
   return (
     <div className="header-container">
       <img src={Running} />
-      <h1 className="header-text"><span className="first-annual">The First annual, </span><span className="bluff-street-blowout">"Bluff Street Blowout!"</span><br></br>GARAGE<br></br>SALE!<br></br>⬇</h1>
+      <h1 className="header-text">
+        <span className="first-annual">
+          The First annual,
+        </span>
+        <span className="bluff-street-blowout">
+          "Bluff Street Blowout!"
+        </span>
+        <br />
+          GARAGE
+        <br />
+          SALE!
+        <br />
+        ⬇
+      </h1>
     </div>
   )
 }
